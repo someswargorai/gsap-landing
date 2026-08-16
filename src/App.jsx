@@ -8,11 +8,13 @@ import FeaturedWork from "./components/FeaturedWork";
 import StackedCards from "./components/StackedCards";
 import { overlays1, overlays2 } from "./data/overlays";
 import PinnedSequence from "./components/PinnedSequence";
+import MaskedImage from "./components/MaskedImage";
 
 function App() {
   return (
     <div className="w-full bg-[#000000] font-sans antialiased text-white selection:bg-white/30">
       <Navbar />
+      <MaskedImage/>
       <VideoScrubber videoSrc="/video_1_scrub.mp4" overlays={overlays1} />
       <VideoScrubber videoSrc="/video_2_scrub.mp4" overlays={overlays2} />
       <HorizontalScroll />
