@@ -34,7 +34,7 @@ export default function Playground() {
       ref={sectionRef}
       className="w-full h-screen bg-[#000000] flex flex-col items-center justify-center relative z-30 overflow-hidden"
     >
-      <div className="inner-box w-[90%] max-w-5xl h-[60vh] rounded-[1 rem] overflow-hidden border border-white/10 relative z-10 mx-auto">
+      <div className="inner-box w-[90%] max-w-5xl h-[60vh] rounded-[1rem] overflow-hidden border border-white/10 relative z-10 mx-auto">
         <video
           className="w-full h-full object-cover"
           src="https://www.pexels.com/download/video/34476228/"

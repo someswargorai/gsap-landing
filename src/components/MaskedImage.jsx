@@ -51,14 +51,14 @@ function MaskedImage() {
     // We add mb-[2500px]! This pushes the next section down by exactly the length of the zoom animation.
     // As you scroll the first 2500px, the margin scrolls away. 
     // Right when the zoom finishes, the next section reaches the screen and slides over this one!
-    <div ref={containerRef} className="w-full h-screen bg-[#000000] relative overflow-hidden flex justify-center items-center z-0 mb-[2500px]">
+    <div ref={containerRef} className="w-full h-[100dvh] bg-[#000000] relative overflow-hidden flex justify-center items-center z-0 mb-[2500px]">
       
       {/* The text sits in the background. As the star expands, it will cover this text! */}
       <h2 className="absolute flex flex-col items-center justify-center font-bold tracking-[-0.04em] text-center z-0 w-full px-4">
-        <span className="text-[3rem] md:text-[5rem] lg:text-[7rem] leading-[1] text-white">
+        <span className="text-[2.5rem] md:text-[5rem] lg:text-[7rem] leading-[1] text-white">
           Enter the world
         </span>
-        <span className="text-[3rem] md:text-[5rem] lg:text-[7rem] leading-[1] bg-linear-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mt-[-10px] md:mt-[-20px]">
+        <span className="text-[2.5rem] md:text-[5rem] lg:text-[7rem] leading-[1] bg-linear-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mt-[-10px] md:mt-[-20px]">
           of simulation
         </span>
       </h2>

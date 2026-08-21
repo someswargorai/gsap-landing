@@ -65,7 +65,7 @@ const VideoScrubber = ({ videoSrc, overlays }) => {
   }, [videoSrc, overlays]);
 
   return (
-    <div ref={containerRef} className="relative h-screen w-full bg-[#000000]">
+    <div ref={containerRef} className="relative h-[100dvh] w-full bg-[#000000]">
       <video
         ref={videoRef}
         className="w-full h-full object-cover opacity-60 mix-blend-screen"
@@ -76,7 +76,7 @@ const VideoScrubber = ({ videoSrc, overlays }) => {
         <source src={videoSrc} type="video/mp4" />
       </video>
 
-      
+      <div className="absolute inset-x-0 bottom-0 h-[50vh] bg-gradient-to-t from-black/80 to-transparent pointer-events-none z-0"></div>
 
       {overlays.map((overlay, index) => {
         const isActive = activeOverlayIndex === index;

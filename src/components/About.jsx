@@ -33,7 +33,7 @@ export default function About() {
   }, []);
 
   return (
-    <section className="sticky top-0 z-0 h-[100vh] about w-full bg-white flex flex-col justify-center px-8 md:px-20 overflow-hidden">
+    <section className="sticky top-0 z-0 h-auto py-24 md:h-[100dvh] about w-full bg-white flex flex-col justify-center px-8 md:px-20 overflow-hidden">
       {/* Light theme subtle glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-black/[0.03] to-transparent pointer-events-none"></div>
 
@@ -45,13 +45,12 @@ export default function About() {
           <h2 className="text-[48px] md:text-[64px] font-medium tracking-[-0.03em] leading-[1.05] text-black">
             Pioneering the next
             <br />
-            era of design.
+            era of the web.
           </h2>
-          <p className="mt-8 text-xl text-gray-600 leading-relaxed max-w-lg">
-            We are a collective of engineers, designers, and creators obsessed
-            with performance and aesthetics. Our mission is to build tools that
-            empower the next generation of builders to move at the speed of
-            thought.
+          <p className="mt-8 text-[15px] md:text-xl text-gray-600 leading-relaxed max-w-lg">
+            We are a collective of rendering engineers, 3D artists, and creators obsessed
+            with performance and aesthetics. Our mission is to build the engine that
+            powers the immersive web, empowering you to build realities that defy expectations.
           </p>
 
           <div className="mt-12 flex gap-4">
@@ -66,7 +65,7 @@ export default function About() {
 
         <div className="md:w-1/2 grid grid-cols-2 gap-12 pt-8 md:pt-0">
           <div className="flex flex-col gap-2">
-            <h3 className="text-black text-5xl font-medium tracking-tight">
+            <h3 className="text-black text-4xl md:text-5xl font-medium tracking-tight">
               2026
             </h3>
             <p className="text-gray-500 text-sm uppercase tracking-wider font-semibold">
@@ -74,7 +73,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <h3 className="text-black text-5xl font-medium tracking-tight">
+            <h3 className="text-black text-4xl md:text-5xl font-medium tracking-tight">
               $42M
             </h3>
             <p className="text-gray-500 text-sm uppercase tracking-wider font-semibold">
@@ -82,7 +81,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <h3 className="text-black text-5xl font-medium tracking-tight">
+            <h3 className="text-black text-4xl md:text-5xl font-medium tracking-tight">
               4
             </h3>
             <p className="text-gray-500 text-sm uppercase tracking-wider font-semibold">
@@ -90,7 +89,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <h3 className="text-black text-5xl font-medium tracking-tight">
+            <h3 className="text-black text-4xl md:text-5xl font-medium tracking-tight">
               1.2M+
             </h3>
             <p className="text-gray-500 text-sm uppercase tracking-wider font-semibold">

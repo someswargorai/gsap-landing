@@ -115,7 +115,7 @@ export default function PinnedSequence() {
   return (
     <section
       ref={containerRef}
-      className="w-full h-screen bg-[#000000] relative overflow-hidden text-white font-sans antialiased border-t border-white/10"
+      className="w-full h-[100dvh] bg-[#000000] relative overflow-hidden text-white font-sans antialiased border-t border-white/10"
     >
       {/* THE HERO CARD: Premium Glassmorphism */}
       <div className="hero-card absolute top-[-10vh] left-1/2 -translate-x-1/2 w-[240px] h-[320px] md:w-[320px] md:h-[420px] rounded-[2.5rem] border border-white/10 bg-white/[0.02] backdrop-blur-3xl z-50 flex items-center justify-center overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.5)]">
@@ -131,7 +131,7 @@ export default function PinnedSequence() {
 
       {/* SLIDE 1: The Foundation */}
       <div className="slide-1 absolute inset-0 w-full h-full flex flex-col items-center justify-center pointer-events-none z-10">
-        <h2 className="slide-1-text text-center font-medium tracking-[-0.04em] text-[5rem] md:text-[8rem] lg:text-[10rem] leading-[0.9]">
+        <h2 className="slide-1-text text-center font-medium tracking-[-0.04em] text-[3.5rem] md:text-[8rem] lg:text-[10rem] leading-[0.9]">
           <span className="block text-white drop-shadow-[0_0_30px_rgba(255,255,255,0.2)]">
             Build
           </span>
@@ -159,35 +159,13 @@ export default function PinnedSequence() {
         <div className="slide-3-glow absolute top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vw] max-w-[1000px] max-h-[1000px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-600/15 via-purple-600/5 to-transparent rounded-full blur-[100px] pointer-events-none"></div>
 
         <div className="slide-3-content text-center relative z-10 mt-[35vh] md:mt-[45vh]">
-          <h2 className="font-medium tracking-[-0.03em] text-[4rem] md:text-[6rem] lg:text-[8rem] leading-[0.9] text-white mb-10">
+          <h2 className="font-medium tracking-[-0.03em] text-[3rem] md:text-[6rem] lg:text-[8rem] leading-[0.9] text-white mb-10">
             Launch <br />
             <span className="text-[#8A8F98]">beautifully.</span>
           </h2>
           <button className="bg-white text-black px-12 py-5 rounded-full text-[16px] md:text-[18px] font-bold tracking-wide hover:bg-[#F2F2F2] transition-transform hover:scale-105 cursor-pointer">
             Start building
           </button>
-        </div>
-        <div className="slide-3-content text-center relative z-10 mt-[35vh] md:mt-[45vh]">
-          <h2 className="font-medium tracking-[-0.03em] text-[4rem] md:text-[6rem] lg:text-[8rem] leading-[0.9] text-white mb-10">
-            Launch <br />
-            <span className="text-[#8A8F98]">beautifully.</span>
-          </h2>
-          <button className="bg-white text-black px-12 py-5 rounded-full text-[16px] md:text-[18px] font-bold tracking-wide hover:bg-[#F2F2F2] transition-transform hover:scale-105 cursor-pointer">
-            Start building
-          </button>
-        </div>
-      </div>
-
-      <div className="slide-4 absolute top-[300vh] left-0 w-full h-full bg-[#000000] flex items-center justify-end px-8 md:px-24 lg:px-40 z-20 shadow-[0_-30px_60px_rgba(0,0,0,0.8)]">
-        <div className="slide-2-content max-w-xl text-left w-full md:w-1/2">
-          <h2 className="font-medium tracking-[-0.03em] text-[3.5rem] md:text-[5rem] lg:text-[6rem] leading-[1] text-white mb-6">
-            Scale <br />
-            <span className="text-[#8A8F98]">infinitely.</span>
-          </h2>
-          <p className="text-[#8A8F98] text-[18px] md:text-[22px] leading-[1.4]">
-            Our architecture is designed to handle massive growth effortlessly.
-            You focus on building the product, we handle the infrastructure.
-          </p>
         </div>
       </div>
     </section>

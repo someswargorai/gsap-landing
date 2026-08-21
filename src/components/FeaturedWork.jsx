@@ -7,9 +7,9 @@ export default function FeaturedWork() {
 
       <div className="text-center flex flex-col items-center">
         {/* Massive Headline */}
-        <h2 className="flex flex-col items-center justify-center font-bold text-[5rem] xl:text-[7rem]">
+        <h2 className="flex flex-col items-center justify-center font-bold text-[3.5rem] md:text-[5rem] xl:text-[7rem]">
           <span className="text-[#111111] leading-[0.85]">Featured</span>
-          <span className="text-[#98948B] leading-[0.85]">work</span>
+          <span className="text-[#98948B] leading-[0.85]">worlds</span>
         </h2>
 
         {/* Arrow */}
@@ -20,10 +20,10 @@ export default function FeaturedWork() {
         </div>
 
         {/* Paragraph */}
-        <p className="text-[20px] md:text-[24px] text-[#111111] max-w-2xl text-center leading-[1.4] tracking-tight font-medium">
-          We create innovative and purposeful designs<br className="hidden md:block"/>
-          that not only capture attention but also drive<br className="hidden md:block"/>
-          meaningful results.
+        <p className="text-[16px] md:text-[24px] text-[#111111] max-w-2xl text-center leading-[1.4] tracking-tight font-medium">
+          Explore the most breathtaking simulations and<br className="hidden md:block"/>
+          interactive 3D experiences built by the world's<br className="hidden md:block"/>
+          top engineering teams on Nexonx.
         </p>
       </div>
     </section>

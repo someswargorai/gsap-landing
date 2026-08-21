@@ -6,7 +6,7 @@ export default function Pricing() {
       
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="text-[48px] md:text-[64px] font-medium tracking-[-0.03em] leading-[1.05] text-white">
+          <h2 className="text-4xl md:text-[64px] font-medium tracking-[-0.03em] leading-[1.05] text-white">
             Simple, transparent pricing
           </h2>
           <p className="mt-6 text-xl text-[#8A8F98] leading-relaxed">
